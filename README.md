@@ -7,9 +7,15 @@ This project involves the analysis of RNA-seq data related to Alzheimer's diseas
 The dataset includes RNA-seq data for Mus Musculus samples, focusing on Alzheimer's disease. The dataset contains at least 50 samples, ensuring robust analysis.
 
 ### Data Source
-- **Platform:** Refine.Bio
-- **Organism:** Mus Musculus (mouse)
-- **Technology:** RNA-seq
+- **Source:** [Refine.Bio](https://www.refine.bio/)
+- **Dataset Title:** TREM2 Acts Downstream of CD33 in Modulating Microglial Pathology in Alzheimer's Disease
+- **Accession Number:** [SRP201011](https://www.refine.bio/experiments/SRP201011)
+- **Description:** This dataset explores the role of TREM2 and CD33 in modulating microglial pathology in Alzheimer's disease using RNA-seq technology in Mus Musculus models.
+- **Instructions to Download:**
+  1. Go to [Refine.Bio](https://www.refine.bio/).
+  2. Search for "TREM2 Acts Downstream of CD33 in Modulating Microglial Pathology in Alzheimer's Disease".
+  3. Select the dataset with accession number SRP201011.
+  4. Download the dataset.
 
 ## Scientific Question
 The main objective of this project is to investigate gene expression differences between Alzheimer's disease samples and healthy control samples in Mus Musculus. Specific questions include:
@@ -22,6 +28,19 @@ The main objective of this project is to investigate gene expression differences
 - `results/`: Directory for storing analysis results and figures.
 - `src/`: Source code for data processing and analysis scripts.
 - `README.md`: Project overview and information.
+
+/alzheimers-mice-rnaseq-analysis
+│
+├── data/ # Directory for data files
+│ ├── README.md # Instructions on how to download the data
+│ └── sample_data.csv # (Optional) Sample data for demonstration
+│
+├── notebooks/ # Jupyter Notebooks
+│ └── analysis.ipynb # Main analysis notebook
+│
+├── .gitignore # Git ignore file
+├── README.md # Project README
+└── requirements.txt # Python dependencies
 
 ## Instructions for Use
 1. Clone the repository:
